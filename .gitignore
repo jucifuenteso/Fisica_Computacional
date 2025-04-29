@@ -25,6 +25,14 @@
 *.la
 *.a
 *.lib
+# Ignorar las carpetas de configuración de Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
 
 # Executables
 *.exe
